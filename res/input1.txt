@@ -1,0 +1,39 @@
+load res/image1.png
+blur
+blur
+blur
+save res/image1_blur.jpeg
+load res/image1.png
+sharpen
+save res/image1_sharpen.jpeg
+load res/image1.png
+greyscale
+save res/image1_grey.jpeg
+greyEnhance
+save res/image1_enhance.jpeg
+load res/image1.png
+sepia
+save res/image1_sepia.jpeg
+load res/image1.png
+edge
+save res/image1_edge.jpeg
+load res/image1.png
+dither
+save res/image1_dither.jpeg
+load res/image3.png
+mosaic 1000
+save res/image3_mosaic.png
+pattern vertical 350 280
+greyscale
+save res/vertical.jpeg
+pattern checkerboard 100 10
+save res/checkerboard.jpeg
+flag 1 500
+save res/france_1.jpeg
+flag 2 750
+save res/norway_1.jpeg
+flag 3 1000
+save res/greece_1.jpeg
+flag 4 1240
+save res/switzerland_1.jpeg
+exit

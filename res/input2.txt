@@ -1,0 +1,34 @@
+load res/image2.png
+sharpen
+sharpen
+sharpen
+save res/image2_sharpen.jpeg
+load res/image2.png
+blur
+save res/image2_blur.jpeg
+load res/image2.png
+greyscale
+save res/image2_grey.jpeg
+load res/image2.png
+sepia
+save res/image2_sepia.jpeg
+load res/image2.png
+edge
+save res/image2_edge.jpeg
+load res/image2.png
+dither
+save res/image2_dither.jpeg
+load res/image4.png
+redeye 108 310 457 419
+save res/image4_redeye.jpeg
+pattern horizontal 350 280
+save res/horizontal.jpeg
+flag 1 250
+save res/france_2.jpeg
+flag 2 500
+save res/norway_2.jpeg
+flag 3 750
+save res/greece_2.jpeg
+flag 4 1000
+save res/switzerland_2.jpeg
+exit
